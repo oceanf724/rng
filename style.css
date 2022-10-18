@@ -32,7 +32,6 @@ body {
 h1 {
     font-family: 'Krungthep';
     font-style: normal;
-    font-weight: 750;
     font-size: 75px;
 
     color: #FFFFFF;  
@@ -42,7 +41,7 @@ h2 {
     font-style: normal;
     font-weight: 380;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 15px;
     text-align: center;
 
     color: #FFFFFF;  
@@ -94,11 +93,12 @@ div {
 }
 .flex-me {
     display: flex;
+    
 }
 .flex-me div{
-    flex-wrap: 1;
-    justify-content: space-evenly;
+    flex-wrap: 5;
 }
+
 .flex-games {
     display: flex;
 }
