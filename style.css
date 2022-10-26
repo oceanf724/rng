@@ -2,6 +2,7 @@ nav ul {
   display: flex;
   background-color: #1b0738;
   padding: 20px 0px 10px 0px;
+  align-items: baseline;
 }
 .homepage nav ul {
   justify-content: center;
@@ -119,10 +120,22 @@ article {
 .button-box div {
   flex: 5;
   justify-content: space-evenly;
+  position: relative;
 }
 .button-box img {
-  width: 85%;
 }
 .button-box img:hover {
-  filter: hue-rotate(15deg);
+  /* filter: hue-rotate(15deg); */
+}
+.butt-hov {
+  /*fill: #9a08d7;*/
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.butt-hov:hover {
+  /*fill: #9a08d7;*/
+  opacity: 1;
 }
