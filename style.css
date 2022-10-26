@@ -1,7 +1,7 @@
 nav ul {
   display: flex;
   background-color: #1b0738;
-  padding: 40px 0px 10px 0px;
+  padding: 20px 0px 10px 0px;
 }
 .homepage nav ul {
   justify-content: center;
@@ -68,8 +68,7 @@ p {
 article {
   font-family: 'PT Sans';
   font-style: normal;
-  font-weight: 150;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 28px;
   text-align: left;
 
