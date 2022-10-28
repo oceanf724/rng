@@ -2,7 +2,7 @@ nav ul {
   display: flex;
   background-color: #1b0738;
   padding: 20px 0px 10px 0px;
-  align-items: baseline;
+  align-items: center;
 }
 .homepage nav ul {
   justify-content: center;
