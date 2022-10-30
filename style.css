@@ -135,9 +135,12 @@ article {
   margin: 0 50px;
 }
 .play li:hover {
-  background-color: rgba(91, 212, 239, 1);
+  background-color: rgba(154, 8, 215);
 }
 .play a {
   text-decoration: none;
   color: #fff;
+}
+.hover-img:hover {
+  border: 5px solid #1ae2ef;
 }
